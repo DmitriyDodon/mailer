@@ -19,4 +19,6 @@ RUN git clone https://github.com/DmitriyDodon/mailer.git \
 
 WORKDIR /var/www/html/mailer
 
+CMD cd /
+
 CMD /var/www/html/mailer/app/bin/mailocal
